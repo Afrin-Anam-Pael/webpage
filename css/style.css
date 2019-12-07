@@ -1,0 +1,497 @@
+*{
+
+margin: 0px;
+padding: 0px;
+font-family:'Merriweather', serif;
+
+}
+.container{
+
+width: 1140px ;
+margin: 0 auto;
+
+}
+
+/*Header part start*/
+
+header {
+
+width:100%;
+float:left;
+position: fixed;
+background-color: white;
+
+}
+.logo {
+
+width:20%;
+float:left;
+
+}
+.logo img{
+
+ height:75px;
+ float:left;
+
+}
+
+.menu {
+
+width:50%;
+float:left;
+
+}
+
+nav ul{
+
+list-style:none;
+
+
+}
+
+nav ul li{
+
+display:inline-block;
+margin:25px 10px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+color:black;
+
+}
+
+.social{
+
+width:30%;
+float:left;
+
+}
+
+.social ul {
+
+list-style:none;
+
+
+}
+
+.social ul li{
+
+display: inline-block;
+ margin:25px 10px;
+}
+.social ul li a {
+ text-decoration: none;
+
+}
+
+.fa.fa-facebook-official{
+
+font-size:32px;
+
+}
+
+.fa.fa-twitter-square{
+
+font-size:32px;
+
+}
+
+.fa.fa-linkedin-square{
+
+font-size:32px;
+
+}
+
+.fa.fa-google-plus{
+
+font-size:26px;
+background-color:red;
+color:white;
+}
+
+.fa.fa-sign-in {
+
+font-size:32px;
+
+}
+
+/*Header part end*/
+
+/*bannar section start*/
+
+.bannar-section {
+	 width:100%;
+   float:left;
+   padding:140px 25px;
+   background:url(../img/ap.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   
+}
+.bannar-fr{
+
+width:400px;
+background-color:#e0dee282;
+padding:50px;
+
+}
+
+.bannar-fr h1{
+
+text-align:center;
+text-transform:uppercase;
+font-size: 40px;
+color:#6b5e5e;
+
+}
+
+.bannar-fr p{
+
+text-align:center;
+}
+.bannar-fr ul{
+
+list-style:none;
+}
+.bannar-fr ul li{
+
+display: inline-block;
+margin:15px 11px;
+
+}
+
+.bannar-fr ul li a{
+
+text-decoration:none;
+text-transform:uppercase;
+background-color:#636363;
+padding:5px 3px;
+color:white;
+box-shadow:1px 2px 4px #737373;
+
+
+}
+/*bannar section end*/
+
+
+/*service section start*/
+
+.services{
+
+width:100%;
+float: left;
+padding: 30px 10px;
+}
+
+.single-service{
+
+width:23%;
+float:left;
+margin-right:2% ;
+text-align:center;
+background-color:#796d6d1c;
+padding:5px 0px;
+
+}
+
+.single-service h3{
+
+margin:8px 0px;
+
+
+}
+
+.single-service p{
+
+text-align:center;
+
+}
+
+.single-service a{
+
+text-decoration:none;
+text-transform:uppercase;
+display:inline-block;
+background-color:#505050;
+padding:3px 5px;
+margin:8px 0px;
+color:white;
+
+}
+
+.fa.fa-check-circle{
+
+font-size:50px;
+color: #85079a;
+
+}
+
+.fa.fa-map-marker{
+font-size:50px;
+color:#259e80;
+
+}
+
+.fa.fa-money{
+
+font-size:50px;
+color:white;
+background-color:#72b327;
+
+}
+
+.fa.fa-user-plus{
+font-size:50px;
+background-color:#45da4b;
+color:#ffffff;
+
+}
+
+/*service section end*/
+
+/*money section start*/
+
+.money{
+
+width:100%;
+float:left;
+}
+.money-one{
+
+width:46%;
+float:left;
+background-color:#e8ecff;
+margin-right:4%;
+}
+.money-one h2{
+
+text-align: center;
+margin: 10px 0px;
+}
+.money-one ul{
+	list-style: none;
+}
+.money-one ul li{
+
+    margin:5px 20px;
+}
+
+ 
+.fa.fa-dot-circle-o{
+
+font-size:5px;
+color:green;
+background-color:green;
+}
+.money a{
+text-decoration:none;
+text-transform:uppercase;
+display:inline-block;
+background-color:#505050;
+padding:3px 5px;
+margin:8px 10px;
+color:white;
+
+
+}
+
+/*money section End*/
+/*Blog section start*/
+.blog{
+
+width:100%;
+float:left;
+}
+.blog h1{
+
+text-align:center;
+color:silver;
+padding: 20px 0px;
+}
+
+/*Blog section end*/
+/*description section start*/
+.description{
+
+	  width:100%;
+    float:left;
+
+}
+
+.sg-description{
+width:46%;
+float:left;
+margin-right:4%;
+}
+
+.sg-description h3{
+
+color:blue;
+
+}
+.sg-description a{
+text-decoration:none;
+text-transform:uppercase;
+display:inline-block;
+background-color:#505050;
+padding:3px 5px;
+margin:8px 0px;
+color:white;
+}
+
+/*description section close*/
+/*about section start*/
+.about {
+
+width:100%;
+float:left;
+background-color:#efded8;
+
+}
+.about h3{
+text-align:center;
+padding:20px 0px;
+
+}
+ 
+/*about section end*/
+.box{
+width:100%;
+float: left;
+
+}
+.box span {
+
+background-color:black;
+color:white;
+padding:2px 5px;
+ border-radius:10px 20px;
+margin:0px 0px 0px 1180px;
+ top:50%;
+ position: fixed;
+
+}
+
+
+/*pilot section start*/
+.pilot {
+
+width:100%;
+float:left;
+padding:20px 0px;
+}
+.pilot h2{
+text-align:center;
+
+}
+.pilot ul{
+
+  list-style: none;
+  text-align: center;
+}
+  .pilot ul li{
+
+  display: inline-block;
+  margin:10px 2px;
+
+}
+
+.fa.fa-star{
+color:#1da023;
+font-size:35px;
+
+}
+
+
+.fa.fa-star-o{
+
+color:white;
+background-color:#8fd83a;
+font-size:32px;
+padding:9px 8px;
+}
+.pilot p{
+
+text-align:center;
+
+}
+
+/*pilot section end*/
+/*men section start*/
+.men{
+
+  width:100%;
+  float:left;
+background-color:#c3b9b9;
+}
+.men h1{
+
+text-align:center;
+color:white;
+padding:20px 0px;
+}
+
+/*men section end*/
+/*dask section start*/
+.dask {
+width:100%;
+float:left;
+background-color:#c3b9b9;
+padding:25px 0px;
+}
+.dask-s{
+
+width:20%;
+float:left;
+
+
+}
+.dask-s h1{
+text-align:center;
+font-size:32px;
+color:white;
+text-transform: uppercase;
+
+}
+.dask-s p{
+
+text-align: center;
+
+}
+
+/*dask section end*/
+
+/* footer part start*/
+footer{
+
+width:100%;
+float: left;
+background-color:#0b1133;
+padding: 25px 0px;
+}
+.adress{
+width:50%;
+float:left;
+padding:25px 0px;
+}
+.adress p{
+
+text-align:center;
+color:white;
+}
+/* footer part end*/
+
+
+
+
+
+
+
+
+
+
+
+
